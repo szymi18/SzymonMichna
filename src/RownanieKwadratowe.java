@@ -20,13 +20,25 @@ public class RownanieKwadratowe {
     private static int c;
     private static int wynikDelty;
 
-    public static void delta(int a,int b,int c, int wynikDelty){
+    public static int delta(int a, int b, int c, int wynikDelty){
         int ac;
         int ac4;
         ac = a + c;
         ac4 = ac * 4;
+        int deltaRownaSie;
+        int a2 = a + a;
 
         wynikDelty = b * b - ac4;
+        deltaRownaSie = -b/a2;
+
+        if(wynikDelty < 0){
+            //pusta kolekcja
+        } else if (wynikDelty == 0){
+            return deltaRownaSie;
+        }
+        else {
+            //zwraca 2 piperwiastki zgodnie ze wzorem
+        }
     }
 
     public RownanieKwadratowe() {
