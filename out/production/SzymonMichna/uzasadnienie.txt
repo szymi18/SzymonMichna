@@ -1,0 +1,1 @@
+wybrałem arraylistę ponieważ jest to talica dynamicza.
